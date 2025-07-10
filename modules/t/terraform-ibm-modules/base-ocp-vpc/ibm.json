@@ -1,6 +1,9 @@
 {
   "versions": [
     {
+      "version": "v9.9.9-temp"
+    },
+    {
       "version": "v4.0.2-Addon-Beta"
     },
     {
