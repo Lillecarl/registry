@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "0.4.55",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.55_darwin_amd64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_darwin_amd64.zip",
+          "shasum": "0d1b154bc295737f50478f4513387ee98e31fc5141099440e20a7a03b5ae6196"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.55_darwin_arm64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_darwin_arm64.zip",
+          "shasum": "763eeca807282560684c45f9ef4268ca69cd085686dbe02920ef1cd6a9a4c0f9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-gfw_0.4.55_freebsd_386.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_freebsd_386.zip",
+          "shasum": "7333289054695dbce16f96ea448dcb63008f8286372a416d5dad71a496f52238"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.55_freebsd_amd64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_freebsd_amd64.zip",
+          "shasum": "317de97d3166828a0e32a01d4a58bf264959c7d2ac6961d476bf07f0a01cbddb"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-gfw_0.4.55_freebsd_arm.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_freebsd_arm.zip",
+          "shasum": "96fdde80ce16a032f8bc61c92aedaac6295bfb16d3db266db4c9f3921568d378"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.55_freebsd_arm64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_freebsd_arm64.zip",
+          "shasum": "79583776d4944868787f90c1e53bd9db173c9bf2fb8a473b147db7d50d21cde5"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-gfw_0.4.55_linux_386.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_linux_386.zip",
+          "shasum": "f5a476a980fed40954b40b4410d32df9aaa40a184e2b4e621d55ec12dce21b8c"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.55_linux_amd64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_linux_amd64.zip",
+          "shasum": "5b77f980aa44f044478de1b403de40c27681904afbb9dfcac85bb378a365c049"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-gfw_0.4.55_linux_arm.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_linux_arm.zip",
+          "shasum": "0680544e514f251433d713fb6a34a5f6509b43b789765c991dcdebd109ce2a89"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.55_linux_arm64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_linux_arm64.zip",
+          "shasum": "43c76f541998325cf07ce3c69870845c60a07af74a5b15a1070c80c047e38ccd"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-gfw_0.4.55_windows_386.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_windows_386.zip",
+          "shasum": "2be2c6ccf1d1dae649972951382eab258d8aaa9388b826a5fc00c91f7937df9c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-gfw_0.4.55_windows_amd64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_windows_amd64.zip",
+          "shasum": "19f57676fd6b8fdd839cdb77de39f8b2726d979761f73c34703924c13c61295f"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-gfw_0.4.55_windows_arm.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_windows_arm.zip",
+          "shasum": "cecf506848372d957ca622bc0f35edafda7960b35968ce4c759fa9a546b35553"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-gfw_0.4.55_windows_arm64.zip",
+          "download_url": "https://github.com/globalfishingwatch/terraform-provider-gfw/releases/download/v0.4.55/terraform-provider-gfw_0.4.55_windows_arm64.zip",
+          "shasum": "4ee17434c9d160f11ce46486875b2b9b428f54d15da5b72006c82587720e6106"
+        }
+      ]
+    },
+    {
       "version": "0.4.54",
       "protocols": [
         "5.0"
