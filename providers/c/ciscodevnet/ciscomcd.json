@@ -1,6 +1,110 @@
 {
   "versions": [
     {
+      "version": "25.8.1",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscomcd_25.8.1_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_darwin_amd64.zip",
+          "shasum": "be82046fa94a8217761792f1cc36e2c250ba359b82daff019ea3457c0ecc1b2b"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscomcd_25.8.1_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_darwin_arm64.zip",
+          "shasum": "9da6d9b346d6277c795bf50e3f972148b24fd7f87435c9d38698867364ee6696"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscomcd_25.8.1_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_linux_amd64.zip",
+          "shasum": "a46006db2cdb261eb49895b736672b076a60db902732120001b244286c663d00"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscomcd_25.8.1_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_linux_arm64.zip",
+          "shasum": "76adea9d7273ec28d9b50d7f098530e4855e79edfa95b28b5d2e2cd2f7d4884c"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscomcd_25.8.1_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_windows_amd64.zip",
+          "shasum": "e662aaea611c3e3e7a3708345f3b92784e0f845ece985106f2166757ec870380"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscomcd_25.8.1_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v25.8.1/terraform-provider-ciscomcd_25.8.1_windows_arm64.zip",
+          "shasum": "f2322cf1f0e78193bb784eb35288b2d0917ef189ceb654b1f7779469990a96bd"
+        }
+      ]
+    },
+    {
+      "version": "0.3.7",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscomcd_0.3.7_darwin_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_darwin_amd64.zip",
+          "shasum": "326d69bbf60ba9ddbcecd327067456dedbba5063144bf2c33fee591fb39afb25"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscomcd_0.3.7_darwin_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_darwin_arm64.zip",
+          "shasum": "d2b6ca831598b04addd4766b504cfd2037b13d31b0456fa13c36076073780bc9"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscomcd_0.3.7_linux_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_linux_amd64.zip",
+          "shasum": "ebc65c6e22490caf20f61edb4b5c0d7b54850fafaccdc5df90ad30e504985aa5"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscomcd_0.3.7_linux_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_linux_arm64.zip",
+          "shasum": "e96e126390c05e9e7db6503f74a869d714e3c2d0ada228cac5babca16b150c54"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-ciscomcd_0.3.7_windows_amd64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_windows_amd64.zip",
+          "shasum": "cee9291a0ac3c66fcb3ce4b0cea17b0586bc2230d6f66b613df39ea9392d5275"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-ciscomcd_0.3.7_windows_arm64.zip",
+          "download_url": "https://github.com/ciscodevnet/terraform-provider-ciscomcd/releases/download/v0.3.7/terraform-provider-ciscomcd_0.3.7_windows_arm64.zip",
+          "shasum": "67299da5f1724c0f5829ba5d07ffb4d4adc5f2c441aa233bd95433275ef0f315"
+        }
+      ]
+    },
+    {
       "version": "0.3.6",
       "protocols": [
         "5.0"
