@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "1.8.4",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-awsutils_1.8.4_darwin_amd64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_darwin_amd64.zip",
+          "shasum": "cc9dbbf39be22421a281a2a5690af3f67d090adf05dbb4268aeeb79dbfbd8af6"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-awsutils_1.8.4_darwin_arm64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_darwin_arm64.zip",
+          "shasum": "a33816f6e431285332edcdd163634cede6ebc7a808fa6c7f9a8e3e4375e1cf4e"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-awsutils_1.8.4_freebsd_386.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_freebsd_386.zip",
+          "shasum": "2bd5934bdfb2dc89e95cbab4f5f2d541d76faa66b99e9b97885566383a27ed65"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-awsutils_1.8.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_freebsd_amd64.zip",
+          "shasum": "a44bc2c55dd37bd2dbbd19cd0524ea7edb61cc8e6e4ce239bee4711d7a5315c3"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-awsutils_1.8.4_freebsd_arm.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_freebsd_arm.zip",
+          "shasum": "9da7a40f7c9c678bb791d01bbe9005f0681e2c8fcc4c91f0fec180a84454f4b4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-awsutils_1.8.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_freebsd_arm64.zip",
+          "shasum": "6e21a1cb10cc6884d845b1af334a50c59da1246c07efac71c1a511839f7f0c02"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-awsutils_1.8.4_linux_386.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_linux_386.zip",
+          "shasum": "853db38928de53785f2387e3dc6599b1a820dde2bacd1a3178a12ac2da5c0a0b"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-awsutils_1.8.4_linux_amd64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_linux_amd64.zip",
+          "shasum": "ed9df6ac8e200b9365b18484b3075bc67afd7482bdc30b1af1375c0630669688"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-awsutils_1.8.4_linux_arm.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_linux_arm.zip",
+          "shasum": "c0fe2490ec14ce2320e8cb4bc92b173ce48cb60e398ea440f724bffeafb693cd"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-awsutils_1.8.4_linux_arm64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_linux_arm64.zip",
+          "shasum": "241c3308d1488cbf470fd8b4ec68dc2ea4a6223afe0e36aed201e8b6c4ce7b5f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-awsutils_1.8.4_windows_386.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_windows_386.zip",
+          "shasum": "0dfa55a48f0b4d1f74d3cfadd2212a15b99a9e9346511e85885cac6727e4c67e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-awsutils_1.8.4_windows_amd64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_windows_amd64.zip",
+          "shasum": "911d6aad8cdd80fb8202f0d649c987d2b24c78a2cb9c9b7a951380fa6dda28ff"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-awsutils_1.8.4_windows_arm.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_windows_arm.zip",
+          "shasum": "f16d369b37b028eeb3292635a52fba062dc1748146810cba63f7c49cea603bd5"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-awsutils_1.8.4_windows_arm64.zip",
+          "download_url": "https://github.com/fd008/terraform-provider-awsutils/releases/download/v1.8.4/terraform-provider-awsutils_1.8.4_windows_arm64.zip",
+          "shasum": "3327c11159f906cf85c43670eb7201c69abc88c6b04db4031ba42c4bec918b35"
+        }
+      ]
+    },
+    {
       "version": "1.8.3",
       "protocols": [
         "6.0"
