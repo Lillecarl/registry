@@ -38,7 +38,7 @@ let
       '';
       passthru = {
         providerName = repo;
-        providerSourceAddress = "${tofuRegistry}/${owner}/${repo}";
+        providerSource = "${tofuRegistry}/${owner}/${repo}";
       };
     }
   );
