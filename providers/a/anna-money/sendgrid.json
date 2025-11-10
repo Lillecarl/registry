@@ -1,6 +1,100 @@
 {
   "versions": [
     {
+      "version": "2.0.10",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.0.10_darwin_amd64.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_darwin_amd64.zip",
+          "shasum": "288cffa77a85f0b0a9b05c8f55e6d19425f8765eb45334735d1f9fbd9205e230"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_2.0.10_darwin_arm64.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_darwin_arm64.zip",
+          "shasum": "702412ff2251812ed496ee434f07d054717985ecebf618adb7e9f4534f9d85ec"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_2.0.10_freebsd_386.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_freebsd_386.zip",
+          "shasum": "e50bfb9e4f5f8e82a15c7149fb925974353d72d27d8115d341a22cb9304312af"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.0.10_freebsd_amd64.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_freebsd_amd64.zip",
+          "shasum": "d2de98ad6214403e40f7cbc467b10b72a51d6e85523d6a547eda83a3881c0b8a"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_2.0.10_freebsd_arm.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_freebsd_arm.zip",
+          "shasum": "4063bbbc287b1c840920b9b67dd389053cc8b5b04b6af0f2262963d0a5b423c4"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_2.0.10_freebsd_arm64.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_freebsd_arm64.zip",
+          "shasum": "143868facfa614ae3af7d98fae48541ef9d49910d298f106d07587ea1abf6629"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_2.0.10_linux_386.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_linux_386.zip",
+          "shasum": "ae1468fccb6ea3a9e3ebf20fad218cdcf90cbde3e36eee1dfa032020b087b7d7"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.0.10_linux_amd64.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_linux_amd64.zip",
+          "shasum": "95daa313a81827aa42a0cc0452a755c0e529b2cee4a6aad5fa69a24e392678c7"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-sendgrid_2.0.10_linux_arm.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_linux_arm.zip",
+          "shasum": "14a2ecd8a7cb4e365df5e98974165ccdf6143d1de0cbb80f86c5d7e70a7e0182"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-sendgrid_2.0.10_linux_arm64.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_linux_arm64.zip",
+          "shasum": "59a01010f5d10144fe587cebe2e544362dfdc0d9ba0170c3a6fcf09fc18273bb"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-sendgrid_2.0.10_windows_386.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_windows_386.zip",
+          "shasum": "0c8d97fb287d77f66ac9a3ec4a740f31853ae73ca4a998f94738197fc49d718e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-sendgrid_2.0.10_windows_amd64.zip",
+          "download_url": "https://github.com/anna-money/terraform-provider-sendgrid/releases/download/v2.0.10/terraform-provider-sendgrid_2.0.10_windows_amd64.zip",
+          "shasum": "550b713b34d9186c17d60db48cffd25cca886cedf32da38ee7eece72e05ca262"
+        }
+      ]
+    },
+    {
       "version": "2.0.9",
       "protocols": [
         "5.0"
