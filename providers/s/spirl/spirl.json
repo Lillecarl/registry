@@ -1,6 +1,58 @@
 {
   "versions": [
     {
+      "version": "0.9.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-spirl_0.9.0_darwin_amd64.zip",
+          "download_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_darwin_amd64.zip",
+          "shasum": "7f0f5bcb65fe8ba6799a1f483bd2b10fd0261f32a4a6ba9e5dc5784d97d015d2"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-spirl_0.9.0_darwin_arm64.zip",
+          "download_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_darwin_arm64.zip",
+          "shasum": "09eb1fb069a7cd074f321557416baa55bb6fdb3809cc275433920650118906ef"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-spirl_0.9.0_linux_amd64.zip",
+          "download_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_linux_amd64.zip",
+          "shasum": "41cbec6797ffc0a3dcc426ac692cf5e789d799e09d1125f8364a4eb8fd3a1e97"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-spirl_0.9.0_linux_arm64.zip",
+          "download_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_linux_arm64.zip",
+          "shasum": "5316f0142b9fc26943beb673323e1bd4d99f47e7c1b6d87c79d902e60d3808fe"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-spirl_0.9.0_windows_amd64.zip",
+          "download_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_windows_amd64.zip",
+          "shasum": "d847d1bbebdd92653d28733a685758a178d7069503e29f34fbd30dbc994908de"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-spirl_0.9.0_windows_arm64.zip",
+          "download_url": "https://github.com/spirl/terraform-provider-spirl/releases/download/v0.9.0/terraform-provider-spirl_0.9.0_windows_arm64.zip",
+          "shasum": "24bc442e77c3cae1b62e51091765392acf93a16027ceab1bc0197486323241f1"
+        }
+      ]
+    },
+    {
       "version": "0.8.0",
       "protocols": [
         "6.0"
