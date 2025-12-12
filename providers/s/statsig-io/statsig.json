@@ -1,6 +1,114 @@
 {
   "versions": [
     {
+      "version": "2.2.0",
+      "protocols": [
+        "6.0"
+      ],
+      "shasums_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-statsig_2.2.0_darwin_amd64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_darwin_amd64.zip",
+          "shasum": "c67788fdfea37ef5955ee879be441c5ce9a32345793d4df0d7dd8d8337cdf98f"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-statsig_2.2.0_darwin_arm64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_darwin_arm64.zip",
+          "shasum": "48b1295c5f7664baaefe232c9c294ea9432da412e0fc4360d2d552e3ce9b26e9"
+        },
+        {
+          "os": "freebsd",
+          "arch": "386",
+          "filename": "terraform-provider-statsig_2.2.0_freebsd_386.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_freebsd_386.zip",
+          "shasum": "03b11c8331afcb2d72cd863abbe82725f44cc00d9112b98ce3395ffd25155904"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-statsig_2.2.0_freebsd_amd64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_freebsd_amd64.zip",
+          "shasum": "38f3a890ce423f6e805f18ddf0d77c3d1b6c8f31a98db3b53b39d87e5f5681c7"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-statsig_2.2.0_freebsd_arm.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_freebsd_arm.zip",
+          "shasum": "71a9810f47635a33c783cea3dee6510afafe2c9d9bc8a8c0dea2e17cab16efca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-statsig_2.2.0_freebsd_arm64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_freebsd_arm64.zip",
+          "shasum": "35eb1fca2cf334f2f703739dbad51cb05b2bac00f521bf0132ef6def29d20393"
+        },
+        {
+          "os": "linux",
+          "arch": "386",
+          "filename": "terraform-provider-statsig_2.2.0_linux_386.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_linux_386.zip",
+          "shasum": "1d4c26a6e5de96535cd96a459bf8d98f94f55a52ab35a4c5865e079ea3d42ebd"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-statsig_2.2.0_linux_amd64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_linux_amd64.zip",
+          "shasum": "bd364b9ea0e84cb557eec0aa4b83a6248cbaf4740b84757ef62e36d5df94cbff"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-statsig_2.2.0_linux_arm.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_linux_arm.zip",
+          "shasum": "9dd27342db327e144ac07b4b7bba41f101445c5047936152c4143a599ad1850a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-statsig_2.2.0_linux_arm64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_linux_arm64.zip",
+          "shasum": "787a2fe47bbb9b92f543594026fc3a30a1c30566e3ecc0aabfe5ddb485548e2f"
+        },
+        {
+          "os": "windows",
+          "arch": "386",
+          "filename": "terraform-provider-statsig_2.2.0_windows_386.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_windows_386.zip",
+          "shasum": "d0f0116c5e39573625e85911d447f7b27a5b3bdc79618be38c457217c7592b6e"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-statsig_2.2.0_windows_amd64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_windows_amd64.zip",
+          "shasum": "8beb9cae135c6f4dca1a8c2577282af5ac0e5b8cd0d0d6073e534b3bb614a839"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-statsig_2.2.0_windows_arm.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_windows_arm.zip",
+          "shasum": "199d8bc75c565cbac8c60571fbea3f57a62f768b3a7d47af5f77ff76c96af507"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-statsig_2.2.0_windows_arm64.zip",
+          "download_url": "https://github.com/statsig-io/terraform-provider-statsig/releases/download/v2.2.0/terraform-provider-statsig_2.2.0_windows_arm64.zip",
+          "shasum": "a43e3e1dcd6493d652dbd419495d5f197d70205d0e735c83378bf3459961627c"
+        }
+      ]
+    },
+    {
       "version": "2.1.2",
       "protocols": [
         "6.0"
