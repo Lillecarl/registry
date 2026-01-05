@@ -5047,6 +5047,93 @@
       ]
     },
     {
+      "version": "1.71.3",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_darwin_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_darwin_amd64.zip",
+          "shasum": "c641c10f63eb95c36291fb47a610fa62edba9c696a237414538ae9ae9fa772da"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_darwin_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_darwin_arm64.zip",
+          "shasum": "13d3b1f091f7e7d1a47ab2a5ec83cd756545d323e4ae2553f08b3ca5cf8c7615"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_freebsd_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_freebsd_amd64.zip",
+          "shasum": "ec4a38c35d1ed295af3e9024c55a215d50994f0c13e473bd05f37ea7bf8e7445"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-huaweicloud_1.71.3_freebsd_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_freebsd_arm.zip",
+          "shasum": "b78dde059f1c3d82e4bd3d00eadd5b308fba8129bb2f22dbb25157d1b937d533"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_freebsd_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_freebsd_arm64.zip",
+          "shasum": "dcc2af9a1462bb0c1de9c00ada10d0660b15530e6971d5b7d1d51dc9eb06882d"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_linux_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_linux_amd64.zip",
+          "shasum": "b05ee822510f87759e6a9d387221ff358066dbbf04fec74640408363e0752e3a"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-huaweicloud_1.71.3_linux_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_linux_arm.zip",
+          "shasum": "87297f005262b74f5715706241764e5d2749ff8e5efb6599b24e022b0d63a7e0"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_linux_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_linux_arm64.zip",
+          "shasum": "db0fdf35086951f1c15ba840e550fd68b47f7933af3b25da9e74088f9df1633a"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_windows_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_windows_amd64.zip",
+          "shasum": "11456f415569932c108521f760c6647ce2b719cd0f2b281d4f33fb0419bc0062"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-huaweicloud_1.71.3_windows_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_windows_arm.zip",
+          "shasum": "96ebd0b81cbfda9335521d5f096f65abf56ab3dfb42f38df5e278394f42fdaec"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.71.3_windows_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.3/terraform-provider-huaweicloud_1.71.3_windows_arm64.zip",
+          "shasum": "6667954260967b29c87122f5c3b8e28926045697ea9b176b611ed81de6fc45db"
+        }
+      ]
+    },
+    {
       "version": "1.71.2",
       "protocols": [
         "5.0"
@@ -5304,6 +5391,93 @@
           "filename": "terraform-provider-huaweicloud_1.71.0_windows_arm64.zip",
           "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.71.0/terraform-provider-huaweicloud_1.71.0_windows_arm64.zip",
           "shasum": "55a3ab99bebd4ba7a9c396b5f00b14e92be3bd9c10022ecd880de5184e71a6bd"
+        }
+      ]
+    },
+    {
+      "version": "1.70.4",
+      "protocols": [
+        "5.0"
+      ],
+      "shasums_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_SHA256SUMS",
+      "shasums_signature_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_SHA256SUMS.sig",
+      "targets": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_darwin_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_darwin_amd64.zip",
+          "shasum": "605cfcd0dfeb4dc0f202077eda8d3ec356befb20ce80272265f9bdfe6184b56a"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_darwin_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_darwin_arm64.zip",
+          "shasum": "087c30c7becf821a0887be6e5ee3dea6d87ccb435d33f8dc4d8e9ba5e3f410ca"
+        },
+        {
+          "os": "freebsd",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_freebsd_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_freebsd_amd64.zip",
+          "shasum": "632b73272f10b443bac743f574dd5d8316ffa8dd89b630a2223ba0f217739b46"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm",
+          "filename": "terraform-provider-huaweicloud_1.70.4_freebsd_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_freebsd_arm.zip",
+          "shasum": "a2f75479acd8a28d4a1dd946c603e1f240aa5e4997ac26bafe0c29d3d6b43d92"
+        },
+        {
+          "os": "freebsd",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_freebsd_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_freebsd_arm64.zip",
+          "shasum": "af5a0f5e464b8a97461a431b2167c1b92304341cbd704969f9a7f8722f87db88"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_linux_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_linux_amd64.zip",
+          "shasum": "47baae9563b09e02aff5544dc1175bcbf0e894b932b83bfca7e033540bc763ce"
+        },
+        {
+          "os": "linux",
+          "arch": "arm",
+          "filename": "terraform-provider-huaweicloud_1.70.4_linux_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_linux_arm.zip",
+          "shasum": "35e91bfc897aabafa0ba8ac4b000d19aacb8a35ada37ff4e74c25b3b80291c13"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_linux_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_linux_arm64.zip",
+          "shasum": "ba24a351107db3c366d04a6a13e77b8b166e65599db7add76ced3afbdcd565cc"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_windows_amd64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_windows_amd64.zip",
+          "shasum": "a6ac622905969be87a5d5ed97b5fdfbb6cc8ce3d5a090f86ee6384e1f9e0e027"
+        },
+        {
+          "os": "windows",
+          "arch": "arm",
+          "filename": "terraform-provider-huaweicloud_1.70.4_windows_arm.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_windows_arm.zip",
+          "shasum": "d94afec40a13a154a09dee740f93e8082a1f0b91a0dc77d5cbc61bf4c5df355c"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "filename": "terraform-provider-huaweicloud_1.70.4_windows_arm64.zip",
+          "download_url": "https://github.com/huaweicloud/terraform-provider-huaweicloud/releases/download/v1.70.4/terraform-provider-huaweicloud_1.70.4_windows_arm64.zip",
+          "shasum": "2df47b8e5f4047ca9e17a3c331bad062522cdd926184f18be77ae142bff93414"
         }
       ]
     },
